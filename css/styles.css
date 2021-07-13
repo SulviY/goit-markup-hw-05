@@ -250,6 +250,32 @@ ol {
   margin-right: 30px;
 }
 
+.projects-list-item-picture {
+  position: relative;
+}
+
+.projects-list-item-description {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 370px;
+  height: 70px;
+
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--secondary-text-color);
+  background: rgba(47, 48, 58, 0.8);
+}
+
 /* ============OUR TEAM=========== */
 
 .team {
@@ -380,7 +406,8 @@ ol {
 
 .projects-list-item-link:hover,
 .projects-list-item-link:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .projects-list-item-title {
@@ -503,7 +530,7 @@ ol {
   border-radius: 50%;
 
   background-color: transparent;
-  fill: #AFB1B8;
+  fill: #afb1b8;
 }
 
 .social-media-icon:hover,
@@ -570,19 +597,19 @@ ol {
   justify-content: center;
   align-items: center;
   margin-right: 30px;
-  border: 1px solid #AFB1B8;
+  border: 1px solid #afb1b8;
   border-radius: 4px;
 
   width: 170px;
   height: 92px;
 
-  fill: #AFB1B8;
+  fill: #afb1b8;
 }
 
 .clients-list-item-link:hover,
 .clients-list-item-link:focus {
   fill: var(--accent-color);
-  border:  1px solid var(--accent-color);
+  border: 1px solid var(--accent-color);
 }
 
 .clients-list-icon {
