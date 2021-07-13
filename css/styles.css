@@ -62,6 +62,17 @@ ol {
   color: var(--accent-color);
 }
 
+.link-current::after {
+  content: "";
+  bottom: 0;
+  width: 48px;
+  height: 4px;
+  display: block;
+
+  background: #2196f3;
+  border-radius: 2px;
+}
+
 .accent {
   color: var(--accent-color);
 }
@@ -434,6 +445,15 @@ ol {
   margin-right: 30px;
   margin-bottom: 30px;
   flex-basis: calc((100% - 90px) / 3);
+}
+
+.projects-cards-item-picture::before {
+  content: "";
+  position: absolute;
+  width: 370px;
+  height: 294px;
+
+  background: rgba(33, 150, 243, 0.9);
 }
 
 .projects-cards-item:nth-child(3n + 3) {
