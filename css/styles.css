@@ -56,6 +56,8 @@ ol {
   text-decoration: none;
   font-style: normal;
   color: inherit;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-current {
@@ -369,6 +371,7 @@ ol {
 .footer-address-item-email,
 .footer-address-item-tel {
   color: rgba(255, 255, 255, 0.6);
+  transition: background-color,color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* =========PORTFOLIO PAGE========== */
@@ -403,6 +406,8 @@ ol {
   border: none;
 
   cursor: pointer;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .filter-btn:hover,
@@ -417,6 +422,8 @@ ol {
 .projects-list-item-link {
   display: block;
   position: relative;
+
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .projects-list-item-link:hover,
@@ -470,6 +477,9 @@ ol {
   letter-spacing: 0.03em;
 
   opacity: 0;
+  
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .projects-list-item-link:hover .projects-cards-item-hover-text, 
@@ -504,6 +514,8 @@ ol {
   display: flex;
   align-items: center;
   fill: var(--primary-text-color);
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-list-item-envelope {
@@ -572,6 +584,8 @@ ol {
 
   background-color: transparent;
   fill: #afb1b8;
+
+  transition: background-color,fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-media-icon:hover,
@@ -620,6 +634,8 @@ ol {
 
   background-color: rgba(255, 255, 255, 0.1);
   fill: var(--secondary-text-color);
+
+  transition: background-color,fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-media-icon-footer:hover,
@@ -645,6 +661,8 @@ ol {
   height: 92px;
 
   fill: #afb1b8;
+
+  transition: border,fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-list-item-link:hover,
