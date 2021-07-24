@@ -421,6 +421,11 @@ ol {
 
 /* =========PROJECTS========== */
 
+.projects-cards-item-overflow {
+  position: relative;
+  overflow: hidden;
+}
+
 .projects-list-item-link {
   display: block;
   position: relative;
@@ -483,8 +488,8 @@ ol {
     top 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.projects-list-item-link:hover .projects-cards-item-hover-text, 
-.projects-list-item-link:focus .projects-cards-item-hover-text {
+.projects-cards-item:hover .projects-cards-item-hover-text, 
+.projects-cards-item:focus .projects-cards-item-hover-text {
   opacity: 1;
   top: 0;
 }
